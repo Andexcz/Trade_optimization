@@ -93,7 +93,7 @@ axes[1].axhline(0, color='gray', linestyle='-', alpha=0.3)
 axes[1].scatter([optimal_leverage], [max_return * 100], color='green', s=100, zorder=5)
 axes[1].set_xlabel('Leverage (x)')
 axes[1].set_ylabel('Risk-Adjusted Return (%)')
-axes[1].set_title('Kelly Criterion')
+axes[1].set_title('Kelly Criterion') 
 axes[1].legend()
 axes[1].grid(True, alpha=0.3)
 
